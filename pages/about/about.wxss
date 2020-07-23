@@ -1,0 +1,14 @@
+.container{
+  background-color: #eee;
+  height : 100vh;/*100vh等价于页面视口的100%*/
+
+  text-align : center;/*实现每个元素居中放置*/
+}
+
+text{/*每个元素独占一行，自上而下放置*/
+  display : block;
+}
+
+image, text{
+  margin-bottom : 60px;
+}
